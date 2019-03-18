@@ -32,6 +32,6 @@ function currentLine(line){
       }
   }
     //currentLineInString.charAt(currentLineInString.length - 1) = ''
-   var fixedLine = currentLineInString.substring(currentLineInString.length - 1,currentLineInString)
-    return currentLineInString
+   var fixedLine = currentLineInString.substring(currentLineInString.length - 2,currentLineInString-1)
+    return fixedLine
 }
