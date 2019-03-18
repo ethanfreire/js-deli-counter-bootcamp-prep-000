@@ -31,6 +31,7 @@ function currentLine(line){
       currentLineInString +=  `${[i+1]}. ${line[i]}` + `,`
       }
   }
-    currentLineInString.charAt(currentLineInString.length - 1) = ''
-   return currentLineInString
+    //currentLineInString.charAt(currentLineInString.length - 1) = ''
+   var fixedLine = currentLineInString.substring(currentLineInString.length - 1,currentLineInString)
+    return currentLineInString
 }
